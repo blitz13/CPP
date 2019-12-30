@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string>
 using std::cout;
+using std::string;
 
 int main()
 {
@@ -36,5 +38,6 @@ int main()
     // boolean type
     bool bTrueOrFalse = true;
 
-
+    // string
+    string sPhrase = "Learn C++";
 }
