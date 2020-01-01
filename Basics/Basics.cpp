@@ -1,9 +1,12 @@
 #include <iostream>
+#include <string>
 
-void Write(const char*);
+using std::string;
+
+void WriteLine(string);
+string Read();
 
 int main()
 {
-    Write("Hello ");
-    std::cin.get();
+    WriteLine("Hello " + Read());
 }
