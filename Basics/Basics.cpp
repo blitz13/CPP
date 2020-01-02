@@ -1,43 +1,19 @@
 #include <iostream>
-#include <string>
+
+using std::cin;
 using std::cout;
-using std::string;
+using std::endl;
 
 int main()
 {
-    // displays message in the console
-    cout << "Hello World!\n";
-
-//--------------------------------------
-
-    // variables
-    
-    // character Types
-    char cCharacter = 'a';
-    char16_t c16Character = 'b';
-    char32_t c32Character = 'c';
-    wchar_t wcCharacter = 'd';
-    
-    // integer types (signed) can hold both negative and positive values
-    short sWholeNumber = -1; 
-    int iWholeNumber = -2; 
-    long lWholeNumber = -3;
-    long long llWholeNumber = -4;
-
-    // integer types (unsigned) can only hold zero and positive values
-    unsigned short usWholeNumber = -1;
-    unsigned int uiWholeNumber = -2;
-    unsigned long ulWholeNumber = -3;
-    unsigned long long ullWholeNumber = -4;
-
-    // floating-point types
-    float fDecimalNumber = 1.000;
-    double dDecimalNumber = 1.00000;
-    long double ldDecimalNumber = 1.0000000;
-
-    // boolean type
-    bool bTrueOrFalse = true;
-
-    // string
-    string sPhrase = "Learn C++";
+     // display sizes of variable types
+    cout << "The size of a CHAR is " << sizeof(char) << " byte" << endl;
+    cout << "The size of a SHORT INT is " << sizeof(short) << " bytes" << endl;
+    cout << "The size of a INT is " << sizeof(int) << " bytes" << endl;
+    cout << "The size of a LONG INT is " << sizeof(long) << " bytes" << endl;
+    cout << "The size of a LONg LONG INT is " << sizeof(long long) << " bytes" << endl;
+    cout << "The size of a FLOAT is " << sizeof(float) << " bytes" << endl;
+    cout << "The size of a DOUBLE is " << sizeof(double) << " bytes" << endl;
+    cout << "The size of a LONG DOUBLE is " << sizeof(long double) << " bytes" << endl;
+    cin.get();
 }
