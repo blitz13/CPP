@@ -1,24 +1,27 @@
 #include <iostream>
 #include <string>
 
-using std::string;
-using std::cout;
-using std::cin;
-
-// IO
-void Write(const char* message)
+//Function with return type and parameters
+float Sum(float a, float b) //parameters are "a" and "b"
 {
-	cout << message;
+	return a + b; // return type is float
 }
 
-void WriteLine(string message)
+//Function with return type only
+float SumFixed()//no parameter
 {
-	cout << message << std::endl;
+	return 2 + 2;// return type is float
 }
 
-string Read()
+//Function without return type but with parameter
+void DispalySum(float a, float b)
 {
-	char input[20];
-	cin.getline(input, 20);
-	return input;
+	float result = Sum(a, b);// "Sum()" function with return type
+	std::cout << result << std::endl;// Displays the sum of two numbers
+}
+
+//Function without return type and parameter
+void Instructions()
+{
+	std::cout << "Copy and Paste" << std::endl;
 }
