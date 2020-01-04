@@ -3,17 +3,15 @@
 int main()
 {
 	//for loops
-	for (int i = 0; i < 2; i++) {
+	/*for (int i = 0; i < 2; i++) {
 		std::cout << "Hello" << std::endl;
-	}
+	}*/
 
-	//or
-	/*int i = 0;
-	for (;i < 2;)
+	//while loop
+	int i = 0;
+	while (i < 2)
 	{
 		std::cout << "Hello" << std::endl;
 		i++;
-	}*/
-
-
+	}
 }
