@@ -2,24 +2,12 @@
 
 int main()
 {
-	//for loops
-	/*for (int i = 0; i < 2; i++) {
-		std::cout << "Hello" << std::endl;
-	}*/
-
-	//while loop
-	/*int i = 0;
-	while (i < 2)
+	for (int i = 0; i < 4; i++)
 	{
-		std::cout << "Hello" << std::endl;
-		i++;
-	}*/
-
-	//do while loop
-	int i = 0;
-	do
-	{
-		std::cout << "Hello" << std::endl;
-		i++;
-	} while (i < 2);
+		// "Continue"
+		if (i % 2)		
+			continue;
+		std::cout << i << " ";
+		std::cout << "Hello" << std::endl;	
+	}
 }
