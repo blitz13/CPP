@@ -8,10 +8,18 @@ int main()
 	}*/
 
 	//while loop
-	int i = 0;
+	/*int i = 0;
 	while (i < 2)
 	{
 		std::cout << "Hello" << std::endl;
 		i++;
-	}
+	}*/
+
+	//do while loop
+	int i = 0;
+	do
+	{
+		std::cout << "Hello" << std::endl;
+		i++;
+	} while (i < 2);
 }
