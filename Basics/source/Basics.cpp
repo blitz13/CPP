@@ -5,9 +5,8 @@ using std::string;
 
 /*-------------------------------------------------------------------------------------------*/
 
-class Position // "Position" class definition
+struct Position // "Position" struct definition
 {
-public: // <-- by default, class properties are private. Need to declare if public.
     float PositionX = 0, PositionY = 0, PositionZ = 0;
 };
 
