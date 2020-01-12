@@ -1,13 +1,18 @@
 #include <iostream>
+#include <string>
 
-void sPrint(char letter)
-{
-	std::cout << letter << std::endl;
-}
-void Print(char);
+#define write std::cout
+#define read std::cin
+#define end std::endl
 
 int main()
 {
-	sPrint('A');
-	Print('B');
+    std::string sPhrase = "Learn C";
+    
+    #pragma region Member Functions
+    sPhrase.append(2, '+'); //Append to string (.append)
+    write << sPhrase << end;
+
+    write << sPhrase.length() << end; // Return length of string (.length())
+    #pragma endregion
 }
