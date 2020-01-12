@@ -1,8 +1,11 @@
 #include <iostream>
-using std::cout;
+
+#define write std::cout
+#define read std::cin
+#define end std::endl
 
 int main()
 {
     // displays message in the console
-    cout << "Hello World!\n";
+    write << "Hello World!" << end;
 }
